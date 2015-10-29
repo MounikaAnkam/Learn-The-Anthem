@@ -7,12 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		124598C21AE1BAF100682BD1 /* Countries Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 124598C11AE1BAF100682BD1 /* Countries Screenshot.png */; };
+		9F3E97461AE5BA4600AE6408 /* splash screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3E97451AE5BA4600AE6408 /* splash screen.png */; };
+		9F692E1B1AD5DAA0003CB89D /* C4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F692E1A1AD5DAA0003CB89D /* C4.mp3 */; };
+		9F692E1D1AD5E1CB003CB89D /* United States.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F692E1C1AD5E1CB003CB89D /* United States.png */; };
 		9F76411F1AC48C8E00F99035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76411E1AC48C8E00F99035 /* AppDelegate.swift */; };
 		9F7641211AC48C8E00F99035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7641201AC48C8E00F99035 /* ViewController.swift */; };
 		9F7641241AC48C8E00F99035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641221AC48C8E00F99035 /* Main.storyboard */; };
 		9F7641261AC48C8E00F99035 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641251AC48C8E00F99035 /* Images.xcassets */; };
 		9F7641291AC48C8E00F99035 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641271AC48C8E00F99035 /* LaunchScreen.xib */; };
 		9F7641351AC48C8E00F99035 /* projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7641341AC48C8E00F99035 /* projectTests.swift */; };
+		9F76413F1AC48E0D00F99035 /* globe_of_flags.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76413E1AC48E0D00F99035 /* globe_of_flags.png */; };
+		9F7641411AC48E1100F99035 /* lessthan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641401AC48E1100F99035 /* lessthan.png */; };
+		9F7641541AC4960000F99035 /* Australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641431AC4960000F99035 /* Australia.png */; };
+		9F7641551AC4960000F99035 /* Brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641441AC4960000F99035 /* Brazil.png */; };
+		9F7641561AC4960000F99035 /* Canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641451AC4960000F99035 /* Canada.png */; };
+		9F7641571AC4960000F99035 /* France.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641461AC4960000F99035 /* France.png */; };
+		9F7641581AC4960000F99035 /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641471AC4960000F99035 /* Germany.png */; };
+		9F7641591AC4960000F99035 /* India.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641481AC4960000F99035 /* India.png */; };
+		9F76415A1AC4960000F99035 /* Japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641491AC4960000F99035 /* Japan.png */; };
+		9F76415B1AC4960000F99035 /* Kenya.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76414A1AC4960000F99035 /* Kenya.png */; };
+		9F76415C1AC4960000F99035 /* Keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76414B1AC4960000F99035 /* Keyboard.png */; };
+		9F76415D1AC4960000F99035 /* Mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76414C1AC4960000F99035 /* Mexico.png */; };
+		9F76415E1AC4960000F99035 /* music copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76414D1AC4960000F99035 /* music copy.png */; };
+		9F76415F1AC4960000F99035 /* New Zealand.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76414E1AC4960000F99035 /* New Zealand.png */; };
+		9F7641601AC4960000F99035 /* Pakistan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76414F1AC4960000F99035 /* Pakistan.png */; };
+		9F7641611AC4960000F99035 /* South Africa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641501AC4960000F99035 /* South Africa.png */; };
+		9F7641621AC4960000F99035 /* Sri Lanka.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641511AC4960000F99035 /* Sri Lanka.png */; };
+		9F7641641AC4960000F99035 /* Zimbabwe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641531AC4960000F99035 /* Zimbabwe.png */; };
+		9F7641661AC4962300F99035 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7641651AC4962300F99035 /* Countries.swift */; };
+		9F76416A1AC4A29900F99035 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641691AC4A29900F99035 /* white.png */; };
+		9F76416C1AC4A29E00F99035 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F76416B1AC4A29E00F99035 /* black.png */; };
+		9F76417B1AC4A51100F99035 /* A#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F76416E1AC4A51100F99035 /* A#.mp3 */; };
+		9F76417C1AC4A51100F99035 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F76416F1AC4A51100F99035 /* A.mp3 */; };
+		9F76417D1AC4A51100F99035 /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641701AC4A51100F99035 /* B.mp3 */; };
+		9F76417E1AC4A51100F99035 /* C#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641711AC4A51100F99035 /* C#.mp3 */; };
+		9F76417F1AC4A51100F99035 /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641721AC4A51100F99035 /* C3.mp3 */; };
+		9F7641811AC4A51100F99035 /* D#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641741AC4A51100F99035 /* D#.mp3 */; };
+		9F7641821AC4A51100F99035 /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641751AC4A51100F99035 /* D.mp3 */; };
+		9F7641831AC4A51100F99035 /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641761AC4A51100F99035 /* E.mp3 */; };
+		9F7641841AC4A51100F99035 /* F#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641771AC4A51100F99035 /* F#.mp3 */; };
+		9F7641851AC4A51100F99035 /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641781AC4A51100F99035 /* F.mp3 */; };
+		9F7641861AC4A51100F99035 /* G#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7641791AC4A51100F99035 /* G#.mp3 */; };
+		9F7641871AC4A51100F99035 /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F76417A1AC4A51100F99035 /* G.mp3 */; };
+		9F85B98B1AC9EAA900D1A4F1 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B98A1AC9EAA900D1A4F1 /* wrong.png */; };
+		9F85B9BB1AC9F13D00D1A4F1 /* Australia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9AC1AC9F13D00D1A4F1 /* Australia.mp3 */; };
+		9F85B9BC1AC9F13D00D1A4F1 /* Brazil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9AD1AC9F13D00D1A4F1 /* Brazil.mp3 */; };
+		9F85B9BD1AC9F13D00D1A4F1 /* Canada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9AE1AC9F13D00D1A4F1 /* Canada.mp3 */; };
+		9F85B9BE1AC9F13D00D1A4F1 /* France.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9AF1AC9F13D00D1A4F1 /* France.mp3 */; };
+		9F85B9BF1AC9F13D00D1A4F1 /* Germany.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B01AC9F13D00D1A4F1 /* Germany.mp3 */; };
+		9F85B9C01AC9F13D00D1A4F1 /* India.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B11AC9F13D00D1A4F1 /* India.mp3 */; };
+		9F85B9C11AC9F13D00D1A4F1 /* Japan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B21AC9F13D00D1A4F1 /* Japan.mp3 */; };
+		9F85B9C21AC9F13D00D1A4F1 /* Kenya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B31AC9F13D00D1A4F1 /* Kenya.mp3 */; };
+		9F85B9C31AC9F13D00D1A4F1 /* Mexico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B41AC9F13D00D1A4F1 /* Mexico.mp3 */; };
+		9F85B9C41AC9F13D00D1A4F1 /* NewZealand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B51AC9F13D00D1A4F1 /* NewZealand.mp3 */; };
+		9F85B9C51AC9F13D00D1A4F1 /* Pakistan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B61AC9F13D00D1A4F1 /* Pakistan.mp3 */; };
+		9F85B9C61AC9F13D00D1A4F1 /* SouthAfrica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B71AC9F13D00D1A4F1 /* SouthAfrica.mp3 */; };
+		9F85B9C71AC9F13D00D1A4F1 /* SriLanka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B81AC9F13D00D1A4F1 /* SriLanka.mp3 */; };
+		9F85B9C81AC9F13D00D1A4F1 /* UnitedStates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9B91AC9F13D00D1A4F1 /* UnitedStates.mp3 */; };
+		9F85B9C91AC9F13D00D1A4F1 /* Zimbabwe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9BA1AC9F13D00D1A4F1 /* Zimbabwe.mp3 */; };
+		9F85B9CB1AC9F26F00D1A4F1 /* NationalAnthem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F85B9CA1AC9F26F00D1A4F1 /* NationalAnthem.swift */; };
+		9F85B9D91ACA06DF00D1A4F1 /* A#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9CD1ACA06DF00D1A4F1 /* A#4.mp3 */; };
+		9F85B9DA1ACA06DF00D1A4F1 /* A4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9CE1ACA06DF00D1A4F1 /* A4.mp3 */; };
+		9F85B9DB1ACA06DF00D1A4F1 /* B4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9CF1ACA06DF00D1A4F1 /* B4.mp3 */; };
+		9F85B9DC1ACA06DF00D1A4F1 /* C#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9D01ACA06DF00D1A4F1 /* C#4.mp3 */; };
+		9F85B9DE1ACA06DF00D1A4F1 /* D#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9D21ACA06DF00D1A4F1 /* D#4.mp3 */; };
+		9F85B9DF1ACA06DF00D1A4F1 /* D4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9D31ACA06DF00D1A4F1 /* D4.mp3 */; };
+		9F85B9E01ACA06DF00D1A4F1 /* E4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9D41ACA06DF00D1A4F1 /* E4.mp3 */; };
+		9F85B9E11ACA06DF00D1A4F1 /* F#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9D51ACA06DF00D1A4F1 /* F#4.mp3 */; };
+		9F85B9E21ACA06DF00D1A4F1 /* F4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9D61ACA06DF00D1A4F1 /* F4.mp3 */; };
+		9F85B9E31ACA06DF00D1A4F1 /* G#4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9D71ACA06DF00D1A4F1 /* G#4.mp3 */; };
+		9F85B9E41ACA06DF00D1A4F1 /* G4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9D81ACA06DF00D1A4F1 /* G4.mp3 */; };
+		9F85B9E81ACA10AC00D1A4F1 /* C5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F85B9E71ACA10AC00D1A4F1 /* C5.mp3 */; };
+		9F85B9EA1ACA142400D1A4F1 /* Piano1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F85B9E91ACA142400D1A4F1 /* Piano1.swift */; };
+		9F86D5C21AC5E84700618791 /* FlagQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86D5C11AC5E84700618791 /* FlagQuiz.swift */; };
+		9F86D5C41AC5E94B00618791 /* smallglobe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F86D5C31AC5E94B00618791 /* smallglobe.png */; };
+		9F86D5C61AC5E94E00618791 /* smallquiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F86D5C51AC5E94E00618791 /* smallquiz.png */; };
+		9F86D5C81AC5FFF400618791 /* AnthemQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86D5C71AC5FFF400618791 /* AnthemQuiz.swift */; };
+		9FAFD1EE1AE5C9AB00440F35 /* AustraliaCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1DF1AE5C9AB00440F35 /* AustraliaCLangLyrics.pdf */; };
+		9FAFD1EF1AE5C9AB00440F35 /* BrazilCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E01AE5C9AB00440F35 /* BrazilCLangLyrics.pdf */; };
+		9FAFD1F01AE5C9AB00440F35 /* CanadaCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E11AE5C9AB00440F35 /* CanadaCLangLyrics.pdf */; };
+		9FAFD1F11AE5C9AB00440F35 /* FranceCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E21AE5C9AB00440F35 /* FranceCLangLyrics.pdf */; };
+		9FAFD1F21AE5C9AB00440F35 /* GermanyCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E31AE5C9AB00440F35 /* GermanyCLangLyrics.pdf */; };
+		9FAFD1F31AE5C9AB00440F35 /* IndiaCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E41AE5C9AB00440F35 /* IndiaCLangLyrics.pdf */; };
+		9FAFD1F41AE5C9AB00440F35 /* JapanCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E51AE5C9AB00440F35 /* JapanCLangLyrics.pdf */; };
+		9FAFD1F51AE5C9AB00440F35 /* KenyaCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E61AE5C9AB00440F35 /* KenyaCLangLyrics.pdf */; };
+		9FAFD1F61AE5C9AB00440F35 /* MexicoCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E71AE5C9AB00440F35 /* MexicoCLangLyrics.pdf */; };
+		9FAFD1F71AE5C9AB00440F35 /* NewZealandCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E81AE5C9AB00440F35 /* NewZealandCLangLyrics.pdf */; };
+		9FAFD1F81AE5C9AB00440F35 /* PakistanCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1E91AE5C9AB00440F35 /* PakistanCLangLyrics.pdf */; };
+		9FAFD1F91AE5C9AB00440F35 /* SouthAfricaCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1EA1AE5C9AB00440F35 /* SouthAfricaCLangLyrics.pdf */; };
+		9FAFD1FA1AE5C9AB00440F35 /* SriLankaCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1EB1AE5C9AB00440F35 /* SriLankaCLangLyrics.pdf */; };
+		9FAFD1FB1AE5C9AB00440F35 /* UnitedStatesCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1EC1AE5C9AB00440F35 /* UnitedStatesCLangLyrics.pdf */; };
+		9FAFD1FC1AE5C9AB00440F35 /* ZimbabweCLangLyrics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1ED1AE5C9AB00440F35 /* ZimbabweCLangLyrics.pdf */; };
+		9FAFD20D1AE5DABC00440F35 /* Australia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1FE1AE5DABC00440F35 /* Australia.pdf */; };
+		9FAFD20E1AE5DABC00440F35 /* Brazil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD1FF1AE5DABC00440F35 /* Brazil.pdf */; };
+		9FAFD20F1AE5DABC00440F35 /* Canada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2001AE5DABC00440F35 /* Canada.pdf */; };
+		9FAFD2101AE5DABC00440F35 /* France.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2011AE5DABC00440F35 /* France.pdf */; };
+		9FAFD2111AE5DABC00440F35 /* Germany.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2021AE5DABC00440F35 /* Germany.pdf */; };
+		9FAFD2121AE5DABC00440F35 /* India.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2031AE5DABC00440F35 /* India.pdf */; };
+		9FAFD2131AE5DABC00440F35 /* Japan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2041AE5DABC00440F35 /* Japan.pdf */; };
+		9FAFD2141AE5DABC00440F35 /* Kenya.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2051AE5DABC00440F35 /* Kenya.pdf */; };
+		9FAFD2151AE5DABC00440F35 /* Mexico.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2061AE5DABC00440F35 /* Mexico.pdf */; };
+		9FAFD2161AE5DABC00440F35 /* NewZealand.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2071AE5DABC00440F35 /* NewZealand.pdf */; };
+		9FAFD2171AE5DABC00440F35 /* Pakistan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2081AE5DABC00440F35 /* Pakistan.pdf */; };
+		9FAFD2181AE5DABC00440F35 /* SouthAfrica.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD2091AE5DABC00440F35 /* SouthAfrica.pdf */; };
+		9FAFD2191AE5DABC00440F35 /* SriLanka.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD20A1AE5DABC00440F35 /* SriLanka.pdf */; };
+		9FAFD21A1AE5DABC00440F35 /* UnitedStates.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD20B1AE5DABC00440F35 /* UnitedStates.pdf */; };
+		9FAFD21B1AE5DABC00440F35 /* Zimbabwe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAFD20C1AE5DABC00440F35 /* Zimbabwe.pdf */; };
+		9FB996BC1AE0843E004A211B /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB996BA1AE0843E004A211B /* bg3.png */; };
+		9FB996BD1AE0843E004A211B /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB996BB1AE0843E004A211B /* bg4.png */; };
+		9FB996BF1AE0859D004A211B /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB996BE1AE0859D004A211B /* Quiz.swift */; };
+		9FD4FE0D1AD763D900DDC2A3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4FE0C1AD763D900DDC2A3 /* Icon.png */; };
+		9FD4FE0F1AD766A100DDC2A3 /* Icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4FE0E1AD766A100DDC2A3 /* Icon1.png */; };
+		9FD7830D1AE1952C002C3FA0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7830C1AE1952C002C3FA0 /* bg.png */; };
+		9FD7830F1AE19588002C3FA0 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7830E1AE19588002C3FA0 /* bg1.png */; };
+		9FD783111AE19915002C3FA0 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD783101AE19915002C3FA0 /* bg2.png */; };
+		CE7320E31AE5F861005D4CDB /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7320E21AE5F861005D4CDB /* new.png */; };
+		CEB872591AEB042E0002F631 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB872581AEB042E0002F631 /* play.png */; };
+		CEB8725B1AEB04370002F631 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8725A1AEB04370002F631 /* stop.png */; };
+		CEB8725D1AEB044E0002F631 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8725C1AEB044E0002F631 /* pause.png */; };
+		CEB8725F1AEB08440002F631 /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8725E1AEB08440002F631 /* quiz.png */; };
+		CEB872611AEB085A0002F631 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB872601AEB085A0002F631 /* globe.png */; };
+		CEB872631AEB08B80002F631 /* Quizimage.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB872621AEB08B80002F631 /* Quizimage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +142,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		124598C11AE1BAF100682BD1 /* Countries Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Countries Screenshot.png"; sourceTree = "<group>"; };
+		9F3E97451AE5BA4600AE6408 /* splash screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash screen.png"; sourceTree = "<group>"; };
+		9F692E1A1AD5DAA0003CB89D /* C4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C4.mp3; sourceTree = "<group>"; };
+		9F692E1C1AD5E1CB003CB89D /* United States.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "United States.png"; sourceTree = "<group>"; };
 		9F7641191AC48C8E00F99035 /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F76411D1AC48C8E00F99035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F76411E1AC48C8E00F99035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +156,118 @@
 		9F76412E1AC48C8E00F99035 /* projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7641331AC48C8E00F99035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7641341AC48C8E00F99035 /* projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectTests.swift; sourceTree = "<group>"; };
+		9F76413E1AC48E0D00F99035 /* globe_of_flags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = globe_of_flags.png; path = ../globe_of_flags.png; sourceTree = "<group>"; };
+		9F7641401AC48E1100F99035 /* lessthan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lessthan.png; path = ../lessthan.png; sourceTree = "<group>"; };
+		9F7641431AC4960000F99035 /* Australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Australia.png; sourceTree = "<group>"; };
+		9F7641441AC4960000F99035 /* Brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brazil.png; sourceTree = "<group>"; };
+		9F7641451AC4960000F99035 /* Canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Canada.png; sourceTree = "<group>"; };
+		9F7641461AC4960000F99035 /* France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = France.png; sourceTree = "<group>"; };
+		9F7641471AC4960000F99035 /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
+		9F7641481AC4960000F99035 /* India.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = India.png; sourceTree = "<group>"; };
+		9F7641491AC4960000F99035 /* Japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japan.png; sourceTree = "<group>"; };
+		9F76414A1AC4960000F99035 /* Kenya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kenya.png; sourceTree = "<group>"; };
+		9F76414B1AC4960000F99035 /* Keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Keyboard.png; sourceTree = "<group>"; };
+		9F76414C1AC4960000F99035 /* Mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexico.png; sourceTree = "<group>"; };
+		9F76414D1AC4960000F99035 /* music copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music copy.png"; sourceTree = "<group>"; };
+		9F76414E1AC4960000F99035 /* New Zealand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New Zealand.png"; sourceTree = "<group>"; };
+		9F76414F1AC4960000F99035 /* Pakistan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pakistan.png; sourceTree = "<group>"; };
+		9F7641501AC4960000F99035 /* South Africa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "South Africa.png"; sourceTree = "<group>"; };
+		9F7641511AC4960000F99035 /* Sri Lanka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sri Lanka.png"; sourceTree = "<group>"; };
+		9F7641531AC4960000F99035 /* Zimbabwe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zimbabwe.png; sourceTree = "<group>"; };
+		9F7641651AC4962300F99035 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		9F7641691AC4A29900F99035 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		9F76416B1AC4A29E00F99035 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		9F76416E1AC4A51100F99035 /* A#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#.mp3"; sourceTree = "<group>"; };
+		9F76416F1AC4A51100F99035 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		9F7641701AC4A51100F99035 /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B.mp3; sourceTree = "<group>"; };
+		9F7641711AC4A51100F99035 /* C#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#.mp3"; sourceTree = "<group>"; };
+		9F7641721AC4A51100F99035 /* C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C3.mp3; sourceTree = "<group>"; };
+		9F7641741AC4A51100F99035 /* D#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#.mp3"; sourceTree = "<group>"; };
+		9F7641751AC4A51100F99035 /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D.mp3; sourceTree = "<group>"; };
+		9F7641761AC4A51100F99035 /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E.mp3; sourceTree = "<group>"; };
+		9F7641771AC4A51100F99035 /* F#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#.mp3"; sourceTree = "<group>"; };
+		9F7641781AC4A51100F99035 /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F.mp3; sourceTree = "<group>"; };
+		9F7641791AC4A51100F99035 /* G#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#.mp3"; sourceTree = "<group>"; };
+		9F76417A1AC4A51100F99035 /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G.mp3; sourceTree = "<group>"; };
+		9F85B98A1AC9EAA900D1A4F1 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		9F85B9AC1AC9F13D00D1A4F1 /* Australia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Australia.mp3; sourceTree = "<group>"; };
+		9F85B9AD1AC9F13D00D1A4F1 /* Brazil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Brazil.mp3; sourceTree = "<group>"; };
+		9F85B9AE1AC9F13D00D1A4F1 /* Canada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Canada.mp3; sourceTree = "<group>"; };
+		9F85B9AF1AC9F13D00D1A4F1 /* France.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = France.mp3; sourceTree = "<group>"; };
+		9F85B9B01AC9F13D00D1A4F1 /* Germany.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Germany.mp3; sourceTree = "<group>"; };
+		9F85B9B11AC9F13D00D1A4F1 /* India.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = India.mp3; sourceTree = "<group>"; };
+		9F85B9B21AC9F13D00D1A4F1 /* Japan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Japan.mp3; sourceTree = "<group>"; };
+		9F85B9B31AC9F13D00D1A4F1 /* Kenya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kenya.mp3; sourceTree = "<group>"; };
+		9F85B9B41AC9F13D00D1A4F1 /* Mexico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mexico.mp3; sourceTree = "<group>"; };
+		9F85B9B51AC9F13D00D1A4F1 /* NewZealand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NewZealand.mp3; sourceTree = "<group>"; };
+		9F85B9B61AC9F13D00D1A4F1 /* Pakistan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pakistan.mp3; sourceTree = "<group>"; };
+		9F85B9B71AC9F13D00D1A4F1 /* SouthAfrica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SouthAfrica.mp3; sourceTree = "<group>"; };
+		9F85B9B81AC9F13D00D1A4F1 /* SriLanka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SriLanka.mp3; sourceTree = "<group>"; };
+		9F85B9B91AC9F13D00D1A4F1 /* UnitedStates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UnitedStates.mp3; sourceTree = "<group>"; };
+		9F85B9BA1AC9F13D00D1A4F1 /* Zimbabwe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zimbabwe.mp3; sourceTree = "<group>"; };
+		9F85B9CA1AC9F26F00D1A4F1 /* NationalAnthem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NationalAnthem.swift; sourceTree = "<group>"; };
+		9F85B9CD1ACA06DF00D1A4F1 /* A#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#4.mp3"; sourceTree = "<group>"; };
+		9F85B9CE1ACA06DF00D1A4F1 /* A4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A4.mp3; sourceTree = "<group>"; };
+		9F85B9CF1ACA06DF00D1A4F1 /* B4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B4.mp3; sourceTree = "<group>"; };
+		9F85B9D01ACA06DF00D1A4F1 /* C#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#4.mp3"; sourceTree = "<group>"; };
+		9F85B9D21ACA06DF00D1A4F1 /* D#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#4.mp3"; sourceTree = "<group>"; };
+		9F85B9D31ACA06DF00D1A4F1 /* D4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D4.mp3; sourceTree = "<group>"; };
+		9F85B9D41ACA06DF00D1A4F1 /* E4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E4.mp3; sourceTree = "<group>"; };
+		9F85B9D51ACA06DF00D1A4F1 /* F#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#4.mp3"; sourceTree = "<group>"; };
+		9F85B9D61ACA06DF00D1A4F1 /* F4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F4.mp3; sourceTree = "<group>"; };
+		9F85B9D71ACA06DF00D1A4F1 /* G#4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#4.mp3"; sourceTree = "<group>"; };
+		9F85B9D81ACA06DF00D1A4F1 /* G4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G4.mp3; sourceTree = "<group>"; };
+		9F85B9E71ACA10AC00D1A4F1 /* C5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C5.mp3; sourceTree = "<group>"; };
+		9F85B9E91ACA142400D1A4F1 /* Piano1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piano1.swift; sourceTree = "<group>"; };
+		9F86D5C11AC5E84700618791 /* FlagQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagQuiz.swift; sourceTree = "<group>"; };
+		9F86D5C31AC5E94B00618791 /* smallglobe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallglobe.png; sourceTree = "<group>"; };
+		9F86D5C51AC5E94E00618791 /* smallquiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallquiz.png; sourceTree = "<group>"; };
+		9F86D5C71AC5FFF400618791 /* AnthemQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnthemQuiz.swift; sourceTree = "<group>"; };
+		9FAFD1DF1AE5C9AB00440F35 /* AustraliaCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AustraliaCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E01AE5C9AB00440F35 /* BrazilCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BrazilCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E11AE5C9AB00440F35 /* CanadaCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CanadaCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E21AE5C9AB00440F35 /* FranceCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FranceCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E31AE5C9AB00440F35 /* GermanyCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GermanyCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E41AE5C9AB00440F35 /* IndiaCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IndiaCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E51AE5C9AB00440F35 /* JapanCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = JapanCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E61AE5C9AB00440F35 /* KenyaCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = KenyaCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E71AE5C9AB00440F35 /* MexicoCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MexicoCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E81AE5C9AB00440F35 /* NewZealandCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NewZealandCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1E91AE5C9AB00440F35 /* PakistanCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PakistanCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1EA1AE5C9AB00440F35 /* SouthAfricaCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SouthAfricaCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1EB1AE5C9AB00440F35 /* SriLankaCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SriLankaCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1EC1AE5C9AB00440F35 /* UnitedStatesCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UnitedStatesCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1ED1AE5C9AB00440F35 /* ZimbabweCLangLyrics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ZimbabweCLangLyrics.pdf; sourceTree = "<group>"; };
+		9FAFD1FE1AE5DABC00440F35 /* Australia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Australia.pdf; sourceTree = "<group>"; };
+		9FAFD1FF1AE5DABC00440F35 /* Brazil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Brazil.pdf; sourceTree = "<group>"; };
+		9FAFD2001AE5DABC00440F35 /* Canada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Canada.pdf; sourceTree = "<group>"; };
+		9FAFD2011AE5DABC00440F35 /* France.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = France.pdf; sourceTree = "<group>"; };
+		9FAFD2021AE5DABC00440F35 /* Germany.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Germany.pdf; sourceTree = "<group>"; };
+		9FAFD2031AE5DABC00440F35 /* India.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = India.pdf; sourceTree = "<group>"; };
+		9FAFD2041AE5DABC00440F35 /* Japan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Japan.pdf; sourceTree = "<group>"; };
+		9FAFD2051AE5DABC00440F35 /* Kenya.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Kenya.pdf; sourceTree = "<group>"; };
+		9FAFD2061AE5DABC00440F35 /* Mexico.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Mexico.pdf; sourceTree = "<group>"; };
+		9FAFD2071AE5DABC00440F35 /* NewZealand.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NewZealand.pdf; sourceTree = "<group>"; };
+		9FAFD2081AE5DABC00440F35 /* Pakistan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Pakistan.pdf; sourceTree = "<group>"; };
+		9FAFD2091AE5DABC00440F35 /* SouthAfrica.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SouthAfrica.pdf; sourceTree = "<group>"; };
+		9FAFD20A1AE5DABC00440F35 /* SriLanka.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SriLanka.pdf; sourceTree = "<group>"; };
+		9FAFD20B1AE5DABC00440F35 /* UnitedStates.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UnitedStates.pdf; sourceTree = "<group>"; };
+		9FAFD20C1AE5DABC00440F35 /* Zimbabwe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Zimbabwe.pdf; sourceTree = "<group>"; };
+		9FB996BA1AE0843E004A211B /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
+		9FB996BB1AE0843E004A211B /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		9FB996BE1AE0859D004A211B /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quiz.swift; path = ../Quiz.swift; sourceTree = "<group>"; };
+		9FD4FE0C1AD763D900DDC2A3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9FD4FE0E1AD766A100DDC2A3 /* Icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon1.png; sourceTree = "<group>"; };
+		9FD7830C1AE1952C002C3FA0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		9FD7830E1AE19588002C3FA0 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		9FD783101AE19915002C3FA0 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		CE7320E21AE5F861005D4CDB /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		CEB872581AEB042E0002F631 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		CEB8725A1AEB04370002F631 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		CEB8725C1AEB044E0002F631 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		CEB8725E1AEB08440002F631 /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
+		CEB872601AEB085A0002F631 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		CEB872621AEB08B80002F631 /* Quizimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quizimage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +309,24 @@
 		9F76411B1AC48C8E00F99035 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				9FAFD1FD1AE5DABC00440F35 /* English Language Lyrics */,
+				9FAFD1DE1AE5C9AB00440F35 /* language lyrics */,
+				9F85B9CC1ACA06DF00D1A4F1 /* piano */,
+				9F85B9AB1AC9F13D00D1A4F1 /* audios */,
+				9F76416D1AC4A51100F99035 /* sound */,
+				9F7641421AC4960000F99035 /* images */,
 				9F76411E1AC48C8E00F99035 /* AppDelegate.swift */,
 				9F7641201AC48C8E00F99035 /* ViewController.swift */,
 				9F7641221AC48C8E00F99035 /* Main.storyboard */,
 				9F7641251AC48C8E00F99035 /* Images.xcassets */,
 				9F7641271AC48C8E00F99035 /* LaunchScreen.xib */,
 				9F76411C1AC48C8E00F99035 /* Supporting Files */,
+				9F7641651AC4962300F99035 /* Countries.swift */,
+				9F86D5C11AC5E84700618791 /* FlagQuiz.swift */,
+				9F86D5C71AC5FFF400618791 /* AnthemQuiz.swift */,
+				9F85B9CA1AC9F26F00D1A4F1 /* NationalAnthem.swift */,
+				9F85B9E91ACA142400D1A4F1 /* Piano1.swift */,
+				9FB996BE1AE0859D004A211B /* Quiz.swift */,
 			);
 			path = project;
 			sourceTree = "<group>";
@@ -110,6 +354,160 @@
 				9F7641331AC48C8E00F99035 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F7641421AC4960000F99035 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE7320E21AE5F861005D4CDB /* new.png */,
+				124598C11AE1BAF100682BD1 /* Countries Screenshot.png */,
+				9FD4FE0E1AD766A100DDC2A3 /* Icon1.png */,
+				9F7641401AC48E1100F99035 /* lessthan.png */,
+				9F7641431AC4960000F99035 /* Australia.png */,
+				9F7641441AC4960000F99035 /* Brazil.png */,
+				9F7641451AC4960000F99035 /* Canada.png */,
+				9F7641461AC4960000F99035 /* France.png */,
+				9FB996BA1AE0843E004A211B /* bg3.png */,
+				CEB872621AEB08B80002F631 /* Quizimage.png */,
+				9FB996BB1AE0843E004A211B /* bg4.png */,
+				9F7641471AC4960000F99035 /* Germany.png */,
+				9F86D5C51AC5E94E00618791 /* smallquiz.png */,
+				9F3E97451AE5BA4600AE6408 /* splash screen.png */,
+				CEB8725A1AEB04370002F631 /* stop.png */,
+				9FD4FE0C1AD763D900DDC2A3 /* Icon.png */,
+				9FD7830E1AE19588002C3FA0 /* bg1.png */,
+				9FD783101AE19915002C3FA0 /* bg2.png */,
+				9FD7830C1AE1952C002C3FA0 /* bg.png */,
+				CEB8725E1AEB08440002F631 /* quiz.png */,
+				CEB872601AEB085A0002F631 /* globe.png */,
+				CEB8725C1AEB044E0002F631 /* pause.png */,
+				CEB872581AEB042E0002F631 /* play.png */,
+				9F7641481AC4960000F99035 /* India.png */,
+				9F7641691AC4A29900F99035 /* white.png */,
+				9F86D5C31AC5E94B00618791 /* smallglobe.png */,
+				9F7641491AC4960000F99035 /* Japan.png */,
+				9F85B98A1AC9EAA900D1A4F1 /* wrong.png */,
+				9F76414A1AC4960000F99035 /* Kenya.png */,
+				9F76416B1AC4A29E00F99035 /* black.png */,
+				9F76414B1AC4960000F99035 /* Keyboard.png */,
+				9F76414C1AC4960000F99035 /* Mexico.png */,
+				9F76414D1AC4960000F99035 /* music copy.png */,
+				9F76413E1AC48E0D00F99035 /* globe_of_flags.png */,
+				9F76414E1AC4960000F99035 /* New Zealand.png */,
+				9F76414F1AC4960000F99035 /* Pakistan.png */,
+				9F7641501AC4960000F99035 /* South Africa.png */,
+				9F7641511AC4960000F99035 /* Sri Lanka.png */,
+				9F7641531AC4960000F99035 /* Zimbabwe.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9F76416D1AC4A51100F99035 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				9F76416E1AC4A51100F99035 /* A#.mp3 */,
+				9F76416F1AC4A51100F99035 /* A.mp3 */,
+				9F7641701AC4A51100F99035 /* B.mp3 */,
+				9F7641711AC4A51100F99035 /* C#.mp3 */,
+				9F7641721AC4A51100F99035 /* C3.mp3 */,
+				9F7641741AC4A51100F99035 /* D#.mp3 */,
+				9F692E1C1AD5E1CB003CB89D /* United States.png */,
+				9F7641751AC4A51100F99035 /* D.mp3 */,
+				9F7641761AC4A51100F99035 /* E.mp3 */,
+				9F7641771AC4A51100F99035 /* F#.mp3 */,
+				9F7641781AC4A51100F99035 /* F.mp3 */,
+				9F7641791AC4A51100F99035 /* G#.mp3 */,
+				9F76417A1AC4A51100F99035 /* G.mp3 */,
+			);
+			name = sound;
+			path = images/sound;
+			sourceTree = "<group>";
+		};
+		9F85B9AB1AC9F13D00D1A4F1 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				9F85B9AC1AC9F13D00D1A4F1 /* Australia.mp3 */,
+				9F85B9AD1AC9F13D00D1A4F1 /* Brazil.mp3 */,
+				9F85B9AE1AC9F13D00D1A4F1 /* Canada.mp3 */,
+				9F85B9AF1AC9F13D00D1A4F1 /* France.mp3 */,
+				9F85B9B01AC9F13D00D1A4F1 /* Germany.mp3 */,
+				9F85B9B11AC9F13D00D1A4F1 /* India.mp3 */,
+				9F85B9B21AC9F13D00D1A4F1 /* Japan.mp3 */,
+				9F85B9B31AC9F13D00D1A4F1 /* Kenya.mp3 */,
+				9F85B9B41AC9F13D00D1A4F1 /* Mexico.mp3 */,
+				9F85B9B51AC9F13D00D1A4F1 /* NewZealand.mp3 */,
+				9F85B9B61AC9F13D00D1A4F1 /* Pakistan.mp3 */,
+				9F85B9B71AC9F13D00D1A4F1 /* SouthAfrica.mp3 */,
+				9F85B9B81AC9F13D00D1A4F1 /* SriLanka.mp3 */,
+				9F85B9B91AC9F13D00D1A4F1 /* UnitedStates.mp3 */,
+				9F85B9BA1AC9F13D00D1A4F1 /* Zimbabwe.mp3 */,
+			);
+			path = audios;
+			sourceTree = "<group>";
+		};
+		9F85B9CC1ACA06DF00D1A4F1 /* piano */ = {
+			isa = PBXGroup;
+			children = (
+				9F85B9CD1ACA06DF00D1A4F1 /* A#4.mp3 */,
+				9F85B9CE1ACA06DF00D1A4F1 /* A4.mp3 */,
+				9F85B9CF1ACA06DF00D1A4F1 /* B4.mp3 */,
+				9F85B9E71ACA10AC00D1A4F1 /* C5.mp3 */,
+				9F85B9D01ACA06DF00D1A4F1 /* C#4.mp3 */,
+				9F692E1A1AD5DAA0003CB89D /* C4.mp3 */,
+				9F85B9D21ACA06DF00D1A4F1 /* D#4.mp3 */,
+				9F85B9D31ACA06DF00D1A4F1 /* D4.mp3 */,
+				9F85B9D41ACA06DF00D1A4F1 /* E4.mp3 */,
+				9F85B9D51ACA06DF00D1A4F1 /* F#4.mp3 */,
+				9F85B9D61ACA06DF00D1A4F1 /* F4.mp3 */,
+				9F85B9D71ACA06DF00D1A4F1 /* G#4.mp3 */,
+				9F85B9D81ACA06DF00D1A4F1 /* G4.mp3 */,
+			);
+			name = piano;
+			path = audios/piano;
+			sourceTree = "<group>";
+		};
+		9FAFD1DE1AE5C9AB00440F35 /* language lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				9FAFD1DF1AE5C9AB00440F35 /* AustraliaCLangLyrics.pdf */,
+				9FAFD1E01AE5C9AB00440F35 /* BrazilCLangLyrics.pdf */,
+				9FAFD1E11AE5C9AB00440F35 /* CanadaCLangLyrics.pdf */,
+				9FAFD1E21AE5C9AB00440F35 /* FranceCLangLyrics.pdf */,
+				9FAFD1E31AE5C9AB00440F35 /* GermanyCLangLyrics.pdf */,
+				9FAFD1E41AE5C9AB00440F35 /* IndiaCLangLyrics.pdf */,
+				9FAFD1E51AE5C9AB00440F35 /* JapanCLangLyrics.pdf */,
+				9FAFD1E61AE5C9AB00440F35 /* KenyaCLangLyrics.pdf */,
+				9FAFD1E71AE5C9AB00440F35 /* MexicoCLangLyrics.pdf */,
+				9FAFD1E81AE5C9AB00440F35 /* NewZealandCLangLyrics.pdf */,
+				9FAFD1E91AE5C9AB00440F35 /* PakistanCLangLyrics.pdf */,
+				9FAFD1EA1AE5C9AB00440F35 /* SouthAfricaCLangLyrics.pdf */,
+				9FAFD1EB1AE5C9AB00440F35 /* SriLankaCLangLyrics.pdf */,
+				9FAFD1EC1AE5C9AB00440F35 /* UnitedStatesCLangLyrics.pdf */,
+				9FAFD1ED1AE5C9AB00440F35 /* ZimbabweCLangLyrics.pdf */,
+			);
+			path = "language lyrics";
+			sourceTree = "<group>";
+		};
+		9FAFD1FD1AE5DABC00440F35 /* English Language Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				9FAFD1FE1AE5DABC00440F35 /* Australia.pdf */,
+				9FAFD1FF1AE5DABC00440F35 /* Brazil.pdf */,
+				9FAFD2001AE5DABC00440F35 /* Canada.pdf */,
+				9FAFD2011AE5DABC00440F35 /* France.pdf */,
+				9FAFD2021AE5DABC00440F35 /* Germany.pdf */,
+				9FAFD2031AE5DABC00440F35 /* India.pdf */,
+				9FAFD2041AE5DABC00440F35 /* Japan.pdf */,
+				9FAFD2051AE5DABC00440F35 /* Kenya.pdf */,
+				9FAFD2061AE5DABC00440F35 /* Mexico.pdf */,
+				9FAFD2071AE5DABC00440F35 /* NewZealand.pdf */,
+				9FAFD2081AE5DABC00440F35 /* Pakistan.pdf */,
+				9FAFD2091AE5DABC00440F35 /* SouthAfrica.pdf */,
+				9FAFD20A1AE5DABC00440F35 /* SriLanka.pdf */,
+				9FAFD20B1AE5DABC00440F35 /* UnitedStates.pdf */,
+				9FAFD20C1AE5DABC00440F35 /* Zimbabwe.pdf */,
+			);
+			path = "English Language Lyrics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +559,7 @@
 				TargetAttributes = {
 					9F7641181AC48C8E00F99035 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 583N2DJ8B2;
 					};
 					9F76412D1AC48C8E00F99035 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +591,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F85B9C71AC9F13D00D1A4F1 /* SriLanka.mp3 in Resources */,
+				9FAFD2101AE5DABC00440F35 /* France.pdf in Resources */,
+				9F76417E1AC4A51100F99035 /* C#.mp3 in Resources */,
+				9FD4FE0F1AD766A100DDC2A3 /* Icon1.png in Resources */,
 				9F7641241AC48C8E00F99035 /* Main.storyboard in Resources */,
+				9F85B9E41ACA06DF00D1A4F1 /* G4.mp3 in Resources */,
+				9FAFD1F61AE5C9AB00440F35 /* MexicoCLangLyrics.pdf in Resources */,
+				9F76417D1AC4A51100F99035 /* B.mp3 in Resources */,
+				9FAFD1F71AE5C9AB00440F35 /* NewZealandCLangLyrics.pdf in Resources */,
+				9FAFD1F41AE5C9AB00440F35 /* JapanCLangLyrics.pdf in Resources */,
+				9FB996BC1AE0843E004A211B /* bg3.png in Resources */,
+				9FAFD20F1AE5DABC00440F35 /* Canada.pdf in Resources */,
+				9F85B9DE1ACA06DF00D1A4F1 /* D#4.mp3 in Resources */,
+				9F85B9C11AC9F13D00D1A4F1 /* Japan.mp3 in Resources */,
+				9F85B9E11ACA06DF00D1A4F1 /* F#4.mp3 in Resources */,
+				9F7641841AC4A51100F99035 /* F#.mp3 in Resources */,
+				9F692E1D1AD5E1CB003CB89D /* United States.png in Resources */,
+				9FAFD1F91AE5C9AB00440F35 /* SouthAfricaCLangLyrics.pdf in Resources */,
+				9F85B9C01AC9F13D00D1A4F1 /* India.mp3 in Resources */,
+				9F7641571AC4960000F99035 /* France.png in Resources */,
+				9F76417C1AC4A51100F99035 /* A.mp3 in Resources */,
+				9FAFD2131AE5DABC00440F35 /* Japan.pdf in Resources */,
+				9F85B9DF1ACA06DF00D1A4F1 /* D4.mp3 in Resources */,
+				9F7641871AC4A51100F99035 /* G.mp3 in Resources */,
+				9FAFD2151AE5DABC00440F35 /* Mexico.pdf in Resources */,
+				9FAFD2171AE5DABC00440F35 /* Pakistan.pdf in Resources */,
+				9FAFD1FA1AE5C9AB00440F35 /* SriLankaCLangLyrics.pdf in Resources */,
+				9FB996BD1AE0843E004A211B /* bg4.png in Resources */,
+				CEB8725B1AEB04370002F631 /* stop.png in Resources */,
+				9F85B9BE1AC9F13D00D1A4F1 /* France.mp3 in Resources */,
+				9F85B9BD1AC9F13D00D1A4F1 /* Canada.mp3 in Resources */,
+				CEB8725D1AEB044E0002F631 /* pause.png in Resources */,
+				9F85B9DB1ACA06DF00D1A4F1 /* B4.mp3 in Resources */,
 				9F7641291AC48C8E00F99035 /* LaunchScreen.xib in Resources */,
+				9F76417F1AC4A51100F99035 /* C3.mp3 in Resources */,
+				9F85B9BF1AC9F13D00D1A4F1 /* Germany.mp3 in Resources */,
+				9F85B9E01ACA06DF00D1A4F1 /* E4.mp3 in Resources */,
+				9F76416C1AC4A29E00F99035 /* black.png in Resources */,
+				9F7641831AC4A51100F99035 /* E.mp3 in Resources */,
+				9F86D5C61AC5E94E00618791 /* smallquiz.png in Resources */,
+				9F76415D1AC4960000F99035 /* Mexico.png in Resources */,
+				9FAFD1F01AE5C9AB00440F35 /* CanadaCLangLyrics.pdf in Resources */,
+				9F7641621AC4960000F99035 /* Sri Lanka.png in Resources */,
+				9F85B9DC1ACA06DF00D1A4F1 /* C#4.mp3 in Resources */,
+				9F76415B1AC4960000F99035 /* Kenya.png in Resources */,
+				9F85B9E21ACA06DF00D1A4F1 /* F4.mp3 in Resources */,
+				9F85B9D91ACA06DF00D1A4F1 /* A#4.mp3 in Resources */,
+				9F7641641AC4960000F99035 /* Zimbabwe.png in Resources */,
+				9F76416A1AC4A29900F99035 /* white.png in Resources */,
+				CEB8725F1AEB08440002F631 /* quiz.png in Resources */,
+				9FAFD20D1AE5DABC00440F35 /* Australia.pdf in Resources */,
+				CEB872591AEB042E0002F631 /* play.png in Resources */,
+				9FD783111AE19915002C3FA0 /* bg2.png in Resources */,
+				9F85B9DA1ACA06DF00D1A4F1 /* A4.mp3 in Resources */,
+				9FAFD2141AE5DABC00440F35 /* Kenya.pdf in Resources */,
+				CEB872611AEB085A0002F631 /* globe.png in Resources */,
+				9F85B9C81AC9F13D00D1A4F1 /* UnitedStates.mp3 in Resources */,
+				9F85B9C51AC9F13D00D1A4F1 /* Pakistan.mp3 in Resources */,
+				9FAFD20E1AE5DABC00440F35 /* Brazil.pdf in Resources */,
+				9F85B9E81ACA10AC00D1A4F1 /* C5.mp3 in Resources */,
+				9FAFD2121AE5DABC00440F35 /* India.pdf in Resources */,
+				9F7641861AC4A51100F99035 /* G#.mp3 in Resources */,
+				9F7641611AC4960000F99035 /* South Africa.png in Resources */,
+				9F76415F1AC4960000F99035 /* New Zealand.png in Resources */,
+				9F85B98B1AC9EAA900D1A4F1 /* wrong.png in Resources */,
+				9FAFD1F21AE5C9AB00440F35 /* GermanyCLangLyrics.pdf in Resources */,
+				9FAFD1EF1AE5C9AB00440F35 /* BrazilCLangLyrics.pdf in Resources */,
+				9F7641601AC4960000F99035 /* Pakistan.png in Resources */,
+				9FAFD2191AE5DABC00440F35 /* SriLanka.pdf in Resources */,
+				9F86D5C41AC5E94B00618791 /* smallglobe.png in Resources */,
+				9F7641591AC4960000F99035 /* India.png in Resources */,
+				9F85B9C61AC9F13D00D1A4F1 /* SouthAfrica.mp3 in Resources */,
+				9F7641541AC4960000F99035 /* Australia.png in Resources */,
+				CE7320E31AE5F861005D4CDB /* new.png in Resources */,
+				9F3E97461AE5BA4600AE6408 /* splash screen.png in Resources */,
+				9FAFD1EE1AE5C9AB00440F35 /* AustraliaCLangLyrics.pdf in Resources */,
+				9F7641821AC4A51100F99035 /* D.mp3 in Resources */,
+				9FAFD1F81AE5C9AB00440F35 /* PakistanCLangLyrics.pdf in Resources */,
+				9F76413F1AC48E0D00F99035 /* globe_of_flags.png in Resources */,
+				9FAFD1FB1AE5C9AB00440F35 /* UnitedStatesCLangLyrics.pdf in Resources */,
+				9FAFD2161AE5DABC00440F35 /* NewZealand.pdf in Resources */,
+				9F85B9C21AC9F13D00D1A4F1 /* Kenya.mp3 in Resources */,
+				124598C21AE1BAF100682BD1 /* Countries Screenshot.png in Resources */,
+				9FAFD2111AE5DABC00440F35 /* Germany.pdf in Resources */,
+				9FAFD1F11AE5C9AB00440F35 /* FranceCLangLyrics.pdf in Resources */,
+				9FAFD1FC1AE5C9AB00440F35 /* ZimbabweCLangLyrics.pdf in Resources */,
+				9FAFD21B1AE5DABC00440F35 /* Zimbabwe.pdf in Resources */,
 				9F7641261AC48C8E00F99035 /* Images.xcassets in Resources */,
+				9F692E1B1AD5DAA0003CB89D /* C4.mp3 in Resources */,
+				9FAFD21A1AE5DABC00440F35 /* UnitedStates.pdf in Resources */,
+				9F76417B1AC4A51100F99035 /* A#.mp3 in Resources */,
+				9F7641561AC4960000F99035 /* Canada.png in Resources */,
+				9FD4FE0D1AD763D900DDC2A3 /* Icon.png in Resources */,
+				9F85B9C91AC9F13D00D1A4F1 /* Zimbabwe.mp3 in Resources */,
+				9F7641551AC4960000F99035 /* Brazil.png in Resources */,
+				9F76415C1AC4960000F99035 /* Keyboard.png in Resources */,
+				9FAFD2181AE5DABC00440F35 /* SouthAfrica.pdf in Resources */,
+				9F85B9BB1AC9F13D00D1A4F1 /* Australia.mp3 in Resources */,
+				9F7641811AC4A51100F99035 /* D#.mp3 in Resources */,
+				CEB872631AEB08B80002F631 /* Quizimage.png in Resources */,
+				9F85B9C31AC9F13D00D1A4F1 /* Mexico.mp3 in Resources */,
+				9F7641411AC48E1100F99035 /* lessthan.png in Resources */,
+				9FD7830F1AE19588002C3FA0 /* bg1.png in Resources */,
+				9F76415E1AC4960000F99035 /* music copy.png in Resources */,
+				9F85B9C41AC9F13D00D1A4F1 /* NewZealand.mp3 in Resources */,
+				9FAFD1F51AE5C9AB00440F35 /* KenyaCLangLyrics.pdf in Resources */,
+				9F85B9E31ACA06DF00D1A4F1 /* G#4.mp3 in Resources */,
+				9F85B9BC1AC9F13D00D1A4F1 /* Brazil.mp3 in Resources */,
+				9F7641851AC4A51100F99035 /* F.mp3 in Resources */,
+				9FD7830D1AE1952C002C3FA0 /* bg.png in Resources */,
+				9FAFD1F31AE5C9AB00440F35 /* IndiaCLangLyrics.pdf in Resources */,
+				9F76415A1AC4960000F99035 /* Japan.png in Resources */,
+				9F7641581AC4960000F99035 /* Germany.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +721,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F85B9CB1AC9F26F00D1A4F1 /* NationalAnthem.swift in Sources */,
+				9F86D5C81AC5FFF400618791 /* AnthemQuiz.swift in Sources */,
+				9F86D5C21AC5E84700618791 /* FlagQuiz.swift in Sources */,
+				9F85B9EA1ACA142400D1A4F1 /* Piano1.swift in Sources */,
 				9F7641211AC48C8E00F99035 /* ViewController.swift in Sources */,
+				9F7641661AC4962300F99035 /* Countries.swift in Sources */,
+				9FB996BF1AE0859D004A211B /* Quiz.swift in Sources */,
 				9F76411F1AC48C8E00F99035 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +851,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMPRESS_PNG_FILES = NO;
 				INFOPLIST_FILE = project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,7 +863,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMPRESS_PNG_FILES = NO;
 				INFOPLIST_FILE = project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +924,7 @@
 				9F76413A1AC48C8E00F99035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F76413B1AC48C8E00F99035 /* Build configuration list for PBXNativeTarget "projectTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +933,7 @@
 				9F76413D1AC48C8E00F99035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
